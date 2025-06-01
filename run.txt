@@ -1,0 +1,5 @@
+# Clean compilation with all necessary flags
+g++ -std=c++17 -Wall -Wextra -I. main.cpp -o rideeasy.exe -static-libgcc -static-libstdc++
+
+# Then run
+./rideeasy.exe
