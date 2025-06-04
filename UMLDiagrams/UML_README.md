@@ -4,37 +4,6 @@
 
 This document describes the UML class diagram for the RideEasy ride-sharing platform, highlighting the implementation of various design patterns and SOLID principles.
 
-## Viewing the UML Diagram
-
-### Online Viewers (Recommended)
-
-1. **PlantUML Online Server**:
-
-   - Go to http://www.plantuml.com/plantuml/uml/
-   - Copy and paste the content from `RideEasyUML.puml`
-   - View the rendered diagram
-
-2. **Visual Studio Code** (If you have it):
-
-   - Install "PlantUML" extension by jebbs
-   - Open `RideEasyUML.puml`
-   - Press `Alt + D` to preview
-
-3. **IntelliJ IDEA/CLion**:
-   - Install PlantUML Integration plugin
-   - Right-click on `.puml` file → "Show PlantUML Diagram"
-
-### Local Installation
-
-```bash
-# Install PlantUML (requires Java)
-# Download plantuml.jar from http://plantuml.com/download
-
-# Generate PNG from command line
-java -jar plantuml.jar RideEasyUML.puml
-
-# Generate SVG
-java -jar plantuml.jar -tsvg RideEasyUML.puml
 ```
 
 ## Diagram Structure

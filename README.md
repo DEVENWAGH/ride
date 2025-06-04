@@ -4,6 +4,14 @@
 
 ---
 
+> **What are SOLID Principles?**
+>
+> - **SRP (Single Responsibility Principle):** Each class should have only one reason to change, i.e., one responsibility.
+> - **OCP (Open/Closed Principle):** Software entities should be open for extension but closed for modification.
+> - **LSP (Liskov Substitution Principle):** Subtypes must be substitutable for their base types without breaking the system.
+> - **ISP (Interface Segregation Principle):** No client should be forced to depend on methods it does not use; prefer small, focused interfaces.
+> - **DIP (Dependency Inversion Principle):** High-level modules should depend on abstractions, not on concrete implementations.
+
 ## 🚀 Quick Start (One Command)
 
 ### Option 1: Python Script (Recommended)

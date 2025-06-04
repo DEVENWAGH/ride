@@ -24,12 +24,13 @@ public:
     User(const std::string& id, const std::string& name, const std::string& phone)
         : userId(id), name(name), phone(phone) {}
     
-    virtual ~User() = default;
+    virtual ~User() = default; // Ensures proper cleanup for derived classes
     
     // Getters
     const std::string& getUserId() const { return userId; }
     const std::string& getName() const { return name; }
     const std::string& getPhone() const { return phone; }
+    // To add new user types (e.g., Admin, FleetManager), inherit from User
 };
 
 class Rider : public User {
